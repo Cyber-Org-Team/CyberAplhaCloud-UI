@@ -1,0 +1,55 @@
+/*
+ Theme Name:     Cyber Alpha Blocks
+ Theme URI:      http://cyberalphacloud.com
+ Description:    Child theme for the One Business Blocks theme.
+ Author:         Anjan Srivathsav
+ Author URI:     http://cyberalphacloud.com
+ Template:       one-business-blocks
+ Version:        1.0.0
+ Text Domain:    cyber-alpha-blocks
+*/
+
+/* Your custom styles go here */
+
+/* Replace 'page-id-123' with the actual page class or ID */
+.consulting-section h1 {
+    font-size: 3.5rem; /* Font size for large heading */
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000; /* Black heading */
+}
+
+.consulting-section h2 {
+    font-size: 2rem; /* Subheading style */
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.consulting-section p {
+    font-size: 1.2rem; /* Paragraph size */
+    color: #333; /* Darker gray text for readability */
+    line-height: 1.7;
+    margin-bottom: 30px; /* Spacing between paragraphs */
+}
+
+/* Optional: Adding custom padding/margin to make content more compact */
+.consulting-section {
+    padding: 40px 80px; /* Adjust padding for left/right spacing */
+    max-width: 1200px; /* Optional: Limit max-width to ensure content doesn't stretch too far */
+    margin: 0 auto; /* Center the content */
+}
+
+/* Specific to buttons on this page */
+ .consulting-section .wp-block-button__link {
+    background-color: #000; /* Button background */
+    color: #fff; /* Button text */
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.consulting-section .wp-block-button__link:hover {
+    background-color: #333; /* Darker background on hover */
+}
